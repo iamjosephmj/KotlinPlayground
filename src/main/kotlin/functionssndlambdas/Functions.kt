@@ -5,7 +5,7 @@ import exampleOf
 fun main() {
     exampleOf("Function with no parameter") {
         fun printRange() {
-            for (num in 1..10)
+            for (num in 1..6)
                 println(num)
         }
         printRange()
